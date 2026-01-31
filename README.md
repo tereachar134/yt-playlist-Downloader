@@ -22,7 +22,13 @@ A robust, cross-platform tool to download entire YouTube playlists with a modern
 
 ### One-Click Setup (Recommended)
 
-**Linux / Mac (No Git required):**
+**Linux / Mac (The "Bash link" method):**
+Copy and paste this one line:
+```bash
+bash <(curl -sL https://raw.githubusercontent.com/tereachar134/yt-playlist-Downloader/main/setup.sh)
+```
+
+**Alternative (ZIP Download):**
 ```bash
 wget https://github.com/tereachar134/yt-playlist-Downloader/archive/refs/heads/main.zip && unzip main.zip && cd yt-playlist-Downloader-main && chmod +x install_and_run.sh && ./install_and_run.sh
 ```
