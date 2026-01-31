@@ -28,9 +28,10 @@ Copy and paste this one line:
 bash <(curl -sL https://raw.githubusercontent.com/tereachar134/yt-playlist-Downloader/main/setup.sh)
 ```
 
-**Alternative (ZIP Download):**
-```bash
-wget https://github.com/tereachar134/yt-playlist-Downloader/archive/refs/heads/main.zip && unzip main.zip && cd yt-playlist-Downloader-main && chmod +x install_and_run.sh && ./install_and_run.sh
+**Windows (The "PowerShell link" method):**
+Copy and paste this one line into PowerShell:
+```powershell
+irm https://raw.githubusercontent.com/tereachar134/yt-playlist-Downloader/main/setup.ps1 | iex
 ```
 
 **Windows (PowerShell):**
